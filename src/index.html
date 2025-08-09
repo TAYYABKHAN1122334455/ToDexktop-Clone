@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Responsive Navbar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="font-sans">
+
+  <!-- ✅ Navbar Start -->
+  <nav class="p-4 flex bg-white justify-between items-center shadow-md relative z-20">
+
+    <!-- Brand / Logo -->
+    <a class="flex items-center gap-2 text-xl font-semibold flex-1" href="#">
+      <img src="Assets/asset 0.png" alt="Logo" class="w-12 h-12" />
+      <span class="text-2xl">ToDesktop</span>
+    </a>
+
+    <!-- Desktop Nav Links -->
+    <div class="hidden lg:flex gap-12 text-lg" id="nav_menu">
+      <a class="font-medium hover:text-[#3238F2]" href="#">Pricing</a>
+      <a class="font-medium hover:text-[#3238F2]" href="#">Docs</a>
+      <a class="font-medium hover:text-[#3238F2]" href="#">Changelog</a>
+      <a class="font-medium hover:text-[#3238F2]" href="#">Blogs</a>
+      <a class="font-medium hover:text-[#3238F2]" href="#">Login</a>
+    </div>
+
+    <!-- Desktop CTA Button -->
+    <div class="hidden lg:flex flex-1 justify-end">
+      <button
+        class="flex gap-2 items-center px-6 py-2 border border-gray-400 cursor-pointer rounded-lg hover:border-gray-700">
+        <img src="Assets/asset 1.svg" alt="Icon" class="w-5 h-5" />
+        <span class="px-3">Electron Developers</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <!-- Hamburger Icon for Mobile -->
+    <button class="p-2 cursor-pointer lg:hidden" onclick="handleMenu()">
+      <i class="fa-solid fa-bars text-xl"></i>
+    </button>
+
+
+    <!-- ✅ Hamburger Menu Panel (Mobile) -->
+    <div id="nav_dialog"
+      class="fixed inset-0 bg-white p-4 z-10 hidden transition-all duration-300 ease-in-out lg:hidden">
+      <!-- Top Bar in Mobile Menu -->
+      <div class="flex justify-between items-center mb-6">
+        <a class="flex items-center gap-2 text-xl font-semibold" href="#">
+          <img src="Assets/asset 0.png" alt="Logo" class="w-8 h-8" />
+          <span>ToDesktop</span>
+        </a>
+        <button class="p-2" onclick="handleMenu()">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Links -->
+      <div class="space-y-3">
+        <a class="block font-medium px-3 py-2 hover:bg-gray-100 rounded" href="#">Pricing</a>
+        <a class="block font-medium px-3 py-2 hover:bg-gray-100 rounded" href="#">Docs</a>
+        <a class="block font-medium px-3 py-2 hover:bg-gray-100 rounded" href="#">Changelog</a>
+        <a class="block font-medium px-3 py-2 hover:bg-gray-100 rounded" href="#">Blogs</a>
+        <a class="block font-medium px-3 py-2 hover:bg-gray-100 rounded" href="#">Login</a>
+      </div>
+
+      <hr class="my-6 border-gray-200" />
+
+      <!-- Mobile CTA Button -->
+      <button class="w-full flex items-center px-6 py-3 bg-gray-100 hover:bg-gray-200 rounded-lg">
+        <img src="Assets/asset 1.svg" alt="Icon" class="w-5 h-5" />
+        <span class="ml-3 font-normal">Electron Developers</span>
+      </button>
+    </div>
+  </nav>
+  <script src="script.js"></script>
+  </body>
+</html>
+
