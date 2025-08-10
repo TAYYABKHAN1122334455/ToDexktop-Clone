@@ -13,7 +13,7 @@
 
 </head>
 
-<body class="font-sans">
+<body class="font-sans ">
 
   <!-- ✅ Navbar Start -->
   <nav class=" p-4 flex bg-white justify-between items-center shadow-md relative z-20">
@@ -378,10 +378,11 @@
       </div>
     </div>
 
-    <!-- Step by Step -->
+   <section class="mx-6">
+     <!-- Step by Step -->
     <div class="px-2 py-6 max-w-6xl mt-16 mx-auto lg:px-8 lg:mt-32">
-  <h2 class="text-5xl sm:font-semibold mb-14">How it Works</h2>
-</div>
+      <h2 class="text-5xl sm:font-semibold mb-14">How it Works</h2>
+    </div>
     <!-- Step#1 -->
     <div class="rounded-xl border border-gray-300 px-8 py-12 flex justify-between items-center flex-col m-6 lg:flex-row 
          max-w-6xl mx-auto">
@@ -755,337 +756,390 @@
         </div>
       </div>
     </div>
-<div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-  <!-- Card 1 -->
-  <div
-    class="group rounded-2xl p-[1px] bg-slate-300 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 transition">
-    <div
-      class="bg-white rounded-2xl h-full w-full p-6 flex flex-col justify-between group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 transition">
-      <div class="w-10 h-10 rounded-full bg-purple-200 flex items-center justify-center mb-4">
-        <span class="text-purple-700 font-bold text-lg"><i class="fa-solid fa-code"></i></span>
+      <!-- Card 1 -->
+      <div
+        class="group rounded-2xl p-[1px] bg-slate-300 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 transition">
+        <div
+          class="bg-white rounded-2xl h-full w-full p-6 flex flex-col justify-between group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 transition">
+          <div class="w-10 h-10 rounded-full bg-purple-200 flex items-center justify-center mb-4">
+            <span class="text-purple-700 font-bold text-lg"><i class="fa-solid fa-code"></i></span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Native APIs</h3>
+          <p class="text-gray-600 italic mb-6">
+            “What sets ToDesktop apart is its seamless integration with native APIs using our existing web codebase.
+            By tapping into APIs like Tray and Notifications, we've crafted an exceptionally polished desktop user
+            experience.”
+          </p>
+          <div class="flex items-center gap-3 mt-auto">
+            <div class="w-8 h-8 rounded-full bg-gray-300 overflow-hidden"><img src="Assets/asset 33.jpeg" alt=""></div>
+            <div>
+              <p class="font-semibold text-sm">Rick Pastoor</p>
+              <p class="text-gray-500 text-sm">Rise</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 class="text-xl font-semibold mb-3">Native APIs</h3>
-      <p class="text-gray-600 italic mb-6">
-        “What sets ToDesktop apart is its seamless integration with native APIs using our existing web codebase.
-        By tapping into APIs like Tray and Notifications, we've crafted an exceptionally polished desktop user
-        experience.”
+
+      <!-- Card 2 -->
+      <div
+        class="group rounded-2xl p-[1px] bg-slate-300 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 transition">
+        <div
+          class="bg-white rounded-2xl h-full w-full p-6 flex flex-col justify-between group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 transition">
+          <div class="w-10 h-10 rounded-full bg-pink-200 flex items-center justify-center mb-4">
+            <span class="text-pink-700 font-bold text-lg"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Cleaner, less cluttered UI</h3>
+          <p class="text-gray-600 italic mb-6">
+            “Having a desktop app gives us the freedom to design the experience we want, including better keyboard
+            shortcuts and a cleaner UI.
+            It was a no-brainer for us to use ToDesktop.”
+          </p>
+          <div class="flex items-center gap-3 mt-auto">
+            <div class="w-8 h-8 rounded-full bg-gray-300 overflow-hidden"><img src="Assets/asset 33.jpeg" alt=""></div>
+            <div>
+              <p class="font-semibold text-sm">Max Musing</p>
+              <p class="text-gray-500 text-sm">Basedash</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="group rounded-2xl p-[1px] bg-slate-300 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 transition">
+        <div
+          class="bg-white rounded-2xl h-full w-full p-6 flex flex-col justify-between group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 transition">
+          <div class="w-10 h-10 rounded-full bg-yellow-200 flex items-center justify-center mb-4">
+            <span class="text-yellow-700 font-bold text-lg"><i class="fa-solid fa-infinity"></i></span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Code optional</h3>
+          <p class="text-gray-600 italic mb-6">
+            “It was unbelievably simple for us to get a desktop app up and running, and we didn’t have to write a
+            single line of code.
+            Once we had this MVP, we were able to extend the app’s functionality with custom behavior using
+            ToDesktop’s libraries.”
+          </p>
+          <div class="flex items-center gap-3 mt-auto">
+            <div class="w-8 h-8 rounded-full bg-gray-300 overflow-hidden"><img src="Assets/asset 33.jpeg" alt=""></div>
+            <div>
+              <p class="font-semibold text-sm">Pouya Rad</p>
+              <p class="text-gray-500 text-sm">LifeAt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-8 overflow-hidden gap-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 bg-black rounded-xl overflow-hidden">
+
+        <!-- Left Side -->
+        <div class="p-8 flex flex-col justify-center">
+          <p class="text-gray-400 text-xs mb-2">READY TO START BUILDING?</p>
+          <h2 class="text-4xl font-bold text-white mb-4 leading-tight">
+            Create your desktop app for free*
+          </h2>
+          <p class="text-gray-300 mb-6">
+            ToDesktop Builder will take you step-by-step through the process of creating your first desktop app in just
+            a few minutes.
+          </p>
+          <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-md font-medium w-max">
+            Download ToDesktop Builder
+          </a>
+          <p class="text-xs text-gray-500 mt-3">
+            *You can create a desktop app and run it on your computer for free. You will only be charged if you want to
+            create a distributable app for your customers.
+          </p>
+        </div>
+
+        <!-- Right Side Image -->
+        <div class="bg-white flex items-center justify-center">
+          <img src="Assets/asset 34.png" alt="App Preview" class="w-full h-auto object-cover">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-12">
+
+      <!-- Header -->
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-10">
+        <h2 class="text-3xl font-bold">Choose a plan that fits your needs</h2>
+        <!-- Toggle -->
+        <div class=" w-fit flex items-center space-x-2 mt-4 md:mt-0 border border-gray-300 rounded-lg overflow-hidden">
+          <button class="px-4 py-2 text-sm bg-white hover:bg-gray-100">Monthly</button>
+          <button class="px-4 py-2 text-sm bg-gray-100 border-l border-gray-300 flex items-center">
+            Yearly <span
+              class="ml-2 bg-purple-100 text-purple-700 text-xs font-medium px-2 py-0.5 rounded-full">-20%</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Pricing Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+
+        <!-- Free Plan -->
+        <div class="border border-gray-300 rounded-xl p-6 flex flex-col bg-gray-50">
+          <h3 class="font-medium text-3xl mb-1 ">Free</h3>
+          <p class="text-gray-500 text-sm mb-4">For personal use or testing your app before deploying to customers.</p>
+          <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Key Features</h4>
+          <ul class="text-sm space-y-2 flex-grow text-gray-700">
+            <li><i class="fa-solid fa-check"></i> Free for Personal Use</li>
+            <li><i class="fa-solid fa-check"></i> Run App Locally</li>
+            <li><i class="fa-solid fa-x"></i> No Public Distribution</li>
+            <li><i class="fa-solid fa-x"></i> No Native Installers</li>
+          </ul>
+          <button class="mt-6 border border-gray-300 rounded-lg py-2 text-blue-600 font-medium hover:bg-gray-100">Get
+            Started</button>
+        </div>
+
+        <!-- Professional Plan -->
+        <div class="border-2 border-blue-600 rounded-xl p-6 flex flex-col relative bg-gray-50">
+          <span
+            class="absolute -top-3 right-4 bg-purple-100 text-purple-700 text-xs font-medium px-2 py-0.5 rounded-full">Most
+            popular</span>
+          <h3 class="tfont-medium text-3xl  mb-1">Professional</h3>
+          <p class="text-gray-500 text-sm mb-1">For sophisticated desktop apps.</p>
+          <p class="text-xl font-bold mb-4 ">$240<span class="text-sm font-normal">/month</span></p>
+          <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Everything in Essential Plus</h4>
+          <ul class="text-sm space-y-2 flex-grow text-gray-700">
+            <li><i class="fa-solid fa-check"></i> Branded Download Links</li>
+            <li><i class="fa-solid fa-check"></i> Analytics</li>
+            <li><i class="fa-solid fa-check"></i> Access to Plugins</li>
+            <li><i class="fa-solid fa-check"></i> Access to Restricted API</li>
+          </ul>
+          <button class="mt-6 bg-blue-600 text-white rounded-lg py-2 font-medium hover:bg-blue-700">Get Started</button>
+        </div>
+
+
+
+        <!-- Essential Plan -->
+        <div class="border border-gray-300 rounded-xl p-6 flex flex-col bg-gray-50">
+          <h3 class="font-medium text-3xl  mb-1">Essential</h3>
+          <p class="text-gray-500 text-sm mb-1">For simple desktop apps.</p>
+          <p class="text-xl font-bold mb-4">$100<span class="text-sm font-normal">/month</span></p>
+          <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Key Features</h4>
+          <ul class="text-sm space-y-2 flex-grow text-gray-700">
+            <li><i class="fa-solid fa-check"></i> Windows, Mac & Linux</li>
+            <li><i class="fa-solid fa-check"></i> Automatic Updates</li>
+            <li><i class="fa-solid fa-check"></i> Native Installers</li>
+            <li><i class="fa-solid fa-check"></i> Email/chat support</li>
+          </ul>
+          <button class="mt-6 border border-gray-300 rounded-lg py-2 text-blue-600 font-medium hover:bg-gray-100">Get
+            Started</button>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <!-- FAQS-Section  -->
+
+
+
+
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-5xl font-bold mb-8">FAQs</h1>
+
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <!-- Column 1 -->
+        <div class="space-y-4">
+
+          <!-- FAQ Item -->
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              Is ToDesktop For Me?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                ToDesktop is perfect for anyone who wants to turn their web app into a desktop app quickly and easily.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              Can I try ToDesktop without buying?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                Yes, you can test ToDesktop for free with limited features before deciding to purchase.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              Do you collect or store data about my customers?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                No. When a ToDesktop app opens, it contacts our servers to check if an update is available. We do not
+                collect or store any user data from these requests.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              Does ToDesktop work with sites built with ___?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                Yes! ToDesktop works with most sites regardless of the framework or technology used.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              What features are on the product roadmap?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                We continuously update ToDesktop with new features based on user feedback. Check our official roadmap
+                for more details.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              How does ToDesktop work under the hood?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                ToDesktop uses Electron to package your web app into a cross-platform desktop application.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Column 2 -->
+        <div class="space-y-4">
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              Will my app work offline?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                Yes, if your web app has offline support, it will also work offline as a desktop app.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              Which version of Electron/Chromium is used?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                ToDesktop always uses the latest stable version of Electron and Chromium for optimal performance and
+                security.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              What support do you offer?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                We offer email support, documentation, and guides to help you build and maintain your desktop app.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              How does my app get updated?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                Updates are handled automatically by ToDesktop’s update system to ensure users always have the latest
+                version.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-50 border border-gray-300 rounded-xl">
+            <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
+              I want to use ToDesktop to convert multiple web apps, is there a bulk discount available?
+              <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
+              <p class="p-4 pt-0 text-gray-600">
+                Yes, we offer discounts for bulk purchases. Contact our sales team for details.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+   
+
+
+    <footer class="my-8">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Top Row with gray background -->
+    <div class="bg-gray-50 rounded-lg flex flex-col sm:flex-row justify-between items-center p-6">
+      <!-- Logo & Name -->
+      <div class="flex items-center space-x-3">
+        <img src="Assets/asset 0.png" alt="ToDesktop" class="w-10 h-10 rounded-lg">
+        <span class="text-lg font-semibold">ToDesktop</span>
+      </div>
+
+      <!-- Right Links -->
+      <div class="flex items-center space-x-6 mt-4 sm:mt-0">
+        <!-- Twitter -->
+        <a href="#" class="text-gray-500 hover:text-gray-700">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
+        <!-- GitHub -->
+        <a href="#" class="text-gray-500 hover:text-gray-700">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <!-- Documentation -->
+        <a href="#" class="text-gray-700 hover:underline">
+          Documentation
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Text (no bg) -->
+    <div class="text-center mt-8 space-y-2">
+      <p class="flex items-center justify-center text-gray-700 text-sm">
+        <span class="bg-orange-500 text-white rounded-sm px-1 font-bold mr-2">Y</span>
+        A Y Combinator company.
       </p>
-      <div class="flex items-center gap-3 mt-auto">
-         <div class="w-8 h-8 rounded-full bg-gray-300 overflow-hidden"><img src="Assets/asset 33.jpeg" alt=""></div>
-        <div>
-          <p class="font-semibold text-sm">Rick Pastoor</p>
-          <p class="text-gray-500 text-sm">Rise</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 2 -->
-  <div
-    class="group rounded-2xl p-[1px] bg-slate-300 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 transition">
-    <div
-      class="bg-white rounded-2xl h-full w-full p-6 flex flex-col justify-between group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 transition">
-      <div class="w-10 h-10 rounded-full bg-pink-200 flex items-center justify-center mb-4">
-        <span class="text-pink-700 font-bold text-lg"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
-      </div>
-      <h3 class="text-xl font-semibold mb-3">Cleaner, less cluttered UI</h3>
-      <p class="text-gray-600 italic mb-6">
-        “Having a desktop app gives us the freedom to design the experience we want, including better keyboard
-        shortcuts and a cleaner UI.
-        It was a no-brainer for us to use ToDesktop.”
-      </p>
-      <div class="flex items-center gap-3 mt-auto">
-         <div class="w-8 h-8 rounded-full bg-gray-300 overflow-hidden"><img src="Assets/asset 33.jpeg" alt=""></div>
-        <div>
-          <p class="font-semibold text-sm">Max Musing</p>
-          <p class="text-gray-500 text-sm">Basedash</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 3 -->
-  <div
-    class="group rounded-2xl p-[1px] bg-slate-300 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 transition">
-    <div
-      class="bg-white rounded-2xl h-full w-full p-6 flex flex-col justify-between group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 transition">
-      <div class="w-10 h-10 rounded-full bg-yellow-200 flex items-center justify-center mb-4">
-        <span class="text-yellow-700 font-bold text-lg"><i class="fa-solid fa-infinity"></i></span>
-      </div>
-      <h3 class="text-xl font-semibold mb-3">Code optional</h3>
-      <p class="text-gray-600 italic mb-6">
-        “It was unbelievably simple for us to get a desktop app up and running, and we didn’t have to write a
-        single line of code.
-        Once we had this MVP, we were able to extend the app’s functionality with custom behavior using
-        ToDesktop’s libraries.”
-      </p>
-      <div class="flex items-center gap-3 mt-auto">
-        <div class="w-8 h-8 rounded-full bg-gray-300 overflow-hidden"><img src="Assets/asset 33.jpeg" alt=""></div>
-        <div>
-          <p class="font-semibold text-sm">Pouya Rad</p>
-          <p class="text-gray-500 text-sm">LifeAt</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="max-w-6xl mx-auto px-4 py-8 overflow-hidden gap-16">
-  <div class="grid grid-cols-1 md:grid-cols-2 bg-black rounded-xl overflow-hidden">
-
-    <!-- Left Side -->
-    <div class="p-8 flex flex-col justify-center">
-      <p class="text-gray-400 text-xs mb-2">READY TO START BUILDING?</p>
-      <h2 class="text-4xl font-bold text-white mb-4 leading-tight">
-        Create your desktop app for free*
-      </h2>
-      <p class="text-gray-300 mb-6">
-        ToDesktop Builder will take you step-by-step through the process of creating your first desktop app in just a few minutes.
-      </p>
-      <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-md font-medium w-max">
-        Download ToDesktop Builder
-      </a>
-      <p class="text-xs text-gray-500 mt-3">
-        *You can create a desktop app and run it on your computer for free. You will only be charged if you want to create a distributable app for your customers.
+      <p class="text-gray-400 text-sm">
+        &copy; 2024 ToDesktop, Inc. All rights reserved.
       </p>
     </div>
-
-    <!-- Right Side Image -->
-    <div class="bg-white flex items-center justify-center">
-      <img src="Assets/asset 34.png" alt="App Preview" class="w-full h-auto object-cover">
-    </div>
-
   </div>
-</div>
-  
-<div class="max-w-6xl mx-auto px-4 py-12">
-  
-  <!-- Header -->
-  <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-10">
-    <h2 class="text-3xl font-bold">Choose a plan that fits your needs</h2>
-    <!-- Toggle -->
-    <div class=" w-fit flex items-center space-x-2 mt-4 md:mt-0 border border-gray-300 rounded-lg overflow-hidden">
-      <button class="px-4 py-2 text-sm bg-white hover:bg-gray-100">Monthly</button>
-      <button class="px-4 py-2 text-sm bg-gray-100 border-l border-gray-300 flex items-center">
-        Yearly <span class="ml-2 bg-purple-100 text-purple-700 text-xs font-medium px-2 py-0.5 rounded-full">-20%</span>
-      </button>
-    </div>
-  </div>
+</footer>
+   </section>
 
-  <!-- Pricing Cards -->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-
-    <!-- Free Plan -->
-    <div class="border border-gray-300 rounded-xl p-6 flex flex-col bg-gray-50">
-      <h3 class="font-medium text-3xl mb-1 ">Free</h3>
-      <p class="text-gray-500 text-sm mb-4">For personal use or testing your app before deploying to customers.</p>
-      <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Key Features</h4>
-      <ul class="text-sm space-y-2 flex-grow text-gray-700">
-        <li><i class="fa-solid fa-check"></i> Free for Personal Use</li>
-        <li><i class="fa-solid fa-check"></i> Run App Locally</li>
-        <li><i class="fa-solid fa-x"></i> No Public Distribution</li>
-        <li><i class="fa-solid fa-x"></i> No Native Installers</li>
-      </ul>
-      <button class="mt-6 border border-gray-300 rounded-lg py-2 text-blue-600 font-medium hover:bg-gray-100">Get Started</button>
-    </div>
-
-      <!-- Professional Plan -->
-    <div class="border-2 border-blue-600 rounded-xl p-6 flex flex-col relative bg-gray-50">
-      <span class="absolute -top-3 right-4 bg-purple-100 text-purple-700 text-xs font-medium px-2 py-0.5 rounded-full">Most popular</span>
-      <h3 class="tfont-medium text-3xl  mb-1">Professional</h3>
-      <p class="text-gray-500 text-sm mb-1">For sophisticated desktop apps.</p>
-      <p class="text-xl font-bold mb-4 ">$240<span class="text-sm font-normal">/month</span></p>
-      <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Everything in Essential Plus</h4>
-      <ul class="text-sm space-y-2 flex-grow text-gray-700">
-        <li><i class="fa-solid fa-check"></i> Branded Download Links</li>
-        <li><i class="fa-solid fa-check"></i> Analytics</li>
-        <li><i class="fa-solid fa-check"></i> Access to Plugins</li>
-        <li><i class="fa-solid fa-check"></i> Access to Restricted API</li>
-      </ul>
-      <button class="mt-6 bg-blue-600 text-white rounded-lg py-2 font-medium hover:bg-blue-700">Get Started</button>
-    </div>
-
-
-
-    <!-- Essential Plan -->
-    <div class="border border-gray-300 rounded-xl p-6 flex flex-col bg-gray-50">
-      <h3 class="font-medium text-3xl  mb-1">Essential</h3>
-      <p class="text-gray-500 text-sm mb-1">For simple desktop apps.</p>
-      <p class="text-xl font-bold mb-4">$100<span class="text-sm font-normal">/month</span></p>
-      <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Key Features</h4>
-      <ul class="text-sm space-y-2 flex-grow text-gray-700">
-        <li><i class="fa-solid fa-check"></i> Windows, Mac & Linux</li>
-        <li><i class="fa-solid fa-check"></i> Automatic Updates</li>
-        <li><i class="fa-solid fa-check"></i> Native Installers</li>
-        <li><i class="fa-solid fa-check"></i> Email/chat support</li>
-      </ul>
-      <button class="mt-6 border border-gray-300 rounded-lg py-2 text-blue-600 font-medium hover:bg-gray-100">Get Started</button>
-    </div>
-
-  
-  </div>
-</div>
-
-
-
-<!-- FAQS-Section  -->
-
-
-
-
-  <div class="max-w-6xl mx-auto">
-    <h1 class="text-5xl font-bold mb-8">FAQs</h1>
-
-    <div class="grid md:grid-cols-2 gap-6">
-
-      <!-- Column 1 -->
-      <div class="space-y-4">
-
-        <!-- FAQ Item -->
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            Is ToDesktop For Me?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              ToDesktop is perfect for anyone who wants to turn their web app into a desktop app quickly and easily.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            Can I try ToDesktop without buying?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              Yes, you can test ToDesktop for free with limited features before deciding to purchase.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            Do you collect or store data about my customers?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              No. When a ToDesktop app opens, it contacts our servers to check if an update is available. We do not collect or store any user data from these requests.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            Does ToDesktop work with sites built with ___?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              Yes! ToDesktop works with most sites regardless of the framework or technology used.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            What features are on the product roadmap?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              We continuously update ToDesktop with new features based on user feedback. Check our official roadmap for more details.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            How does ToDesktop work under the hood?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              ToDesktop uses Electron to package your web app into a cross-platform desktop application.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Column 2 -->
-      <div class="space-y-4">
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            Will my app work offline?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              Yes, if your web app has offline support, it will also work offline as a desktop app.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            Which version of Electron/Chromium is used?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              ToDesktop always uses the latest stable version of Electron and Chromium for optimal performance and security.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            What support do you offer?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              We offer email support, documentation, and guides to help you build and maintain your desktop app.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            How does my app get updated?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              Updates are handled automatically by ToDesktop’s update system to ensure users always have the latest version.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gray-50 border border-gray-300 rounded-xl">
-          <button class="w-full flex justify-between items-center p-4 text-left text-lg font-medium faq-btn">
-            I want to use ToDesktop to convert multiple web apps, is there a bulk discount available?
-            <i class="fa-solid fa-chevron-down transition-transform duration-300 faq-icon"></i>
-          </button>
-          <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content">
-            <p class="p-4 pt-0 text-gray-600">
-              Yes, we offer discounts for bulk purchases. Contact our sales team for details.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-    <div class="h-[500px]"></div>
   </main>
   <script src="script.js"></script>
 </body>
