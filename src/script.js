@@ -43,3 +43,23 @@ setupIntersectionObserver(line1,true,0.25)
 setupIntersectionObserver(line2,false,0.25)
 setupIntersectionObserver(line3,true,0.25)
 setupIntersectionObserver(line4,true,0.8)
+
+
+
+ document.querySelectorAll(".faq-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector(".faq-icon");
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          icon.classList.remove("rotate-180");
+        } else {
+          document.querySelectorAll(".faq-content").forEach((c) => c.style.maxHeight = null);
+          document.querySelectorAll(".faq-icon").forEach((i) => i.classList.remove("rotate-180"));
+
+          content.style.maxHeight = content.scrollHeight + "px";
+          icon.classList.add("rotate-180");
+        }
+      });
+    });
